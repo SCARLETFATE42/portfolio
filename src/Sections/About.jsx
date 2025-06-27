@@ -50,8 +50,8 @@ const About = () => {
 
         {/* Time Zone Block */}
         <Box className="bg-gradient-to-r from-[#202833df] to-gray-600 col-span-full sm:col-span-2 lg:col-span-3 row-span-1 rounded-xl p-4 relative overflow-hidden">
-          <Text className="!text-neutral-300 !font-semibold !text-lg">Time Zone</Text>
-          <Text className="!text-neutral-500 !text-sm mt-1">Based in Nigeria, open to remote Worldwide</Text>
+          <Text className="!text-neutral-300 !font-semibold !text-2xl">Time Zone</Text>
+          <Text className="!text-neutral-500 !text-xl mt-1">Based in Nigeria, open to remote Worldwide</Text>
           <figure className="absolute left-[20%] top-[20%] scale-75 sm:scale-100">
             <Globe />
           </figure>
