@@ -70,12 +70,12 @@ const About = () => {
         {/* Tech Stack Block */}
         <Box className="bg-gray-800 col-span-full lg:col-span-4 row-span-1 rounded-xl p-4 flex flex-col md:flex-row items-start justify-between relative overflow-hidden">
           <Box className="z-10 w-full md:w-1/2 py-2">
-            <Text className="text-2xl text-neutral-300 py-2">Tech Stack</Text>
-            <Text className="text-lg text-neutral-400">
+            <Text className="!text-2xl !text-neutral-300 !py-2">Tech Stack</Text>
+            <Text className="!text-lg !text-neutral-400">
               I specialize in HTML, CSS, JavaScript, <br /> React, Tailwind CSS, and Next.js
             </Text>
           </Box>
-          <Box className="absolute inset-y-0 right-0 w-full md:w-1/2 h-full md:scale-125 md:translate-x-10">
+          <Box className="absolute inset-y-0 top-4 -right-4 w-full md:w-1/2 h-full md:scale-125 md:translate-x-10">
             <FrameWork />
           </Box>
         </Box>
