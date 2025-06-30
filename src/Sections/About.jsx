@@ -20,7 +20,7 @@ const About = () => {
 
   {/* Background Image */}
   <img
-    src="/src/assets/mountains.jpeg"
+    src="/src/assets/mountains.svg"
     alt="Mountain Landscape"
     className="absolute inset-0 w-full h-full object-cover opacity-60"
   />
