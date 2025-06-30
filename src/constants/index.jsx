@@ -8,7 +8,7 @@ export const myProjects = [
     id: 1,
     title: "FitDrip Exercises",
     description: "Focuses more on the various kinds of Exercises on the different parts of the body you as an individual can work on.",
-    Image: "/src/assets/Boy-fitness.png",
+    Image: "/src/assets/Boy-fitness.svg",
 
     tags: [
       {
