@@ -40,6 +40,7 @@ const ProjectDetail = (
                         className='rounded-lg size-10 animate-bounce'/>
                     )
                     )}
+                </Box>
                 <a href='https://boy-fitness-scarletfate42s-projects.vercel.app/' className='inline-flex items-center justify-center gap-1
                 font-medium cursor-pointer animate-bounce'
                 > View Projects
@@ -48,13 +49,13 @@ const ProjectDetail = (
                 <path d="M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6"/><path d="m21 3-9 9"/><path d="M15 3h6v6"/>
                 </svg>
                 </a>
-                </Box>
                 <Box className='flex gap-3'>
                     {tags.map((tag) =>(
                         <img key={tag.id} src={tag.path} alt={tag.name} 
                         className='rounded-lg size-10 animate-bounce'/>
                     )
                     )}
+                </Box>
                 <a href='https://awards-gamma.vercel.app/' className='inline-flex items-center justify-center gap-1
                 font-medium cursor-pointer animate-bounce'
                 > View Projects
@@ -63,7 +64,6 @@ const ProjectDetail = (
                 <path d="M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6"/><path d="m21 3-9 9"/><path d="M15 3h6v6"/>
                 </svg>
                 </a>
-                </Box>
             </Box>
             </Box>
         </motion.div>
