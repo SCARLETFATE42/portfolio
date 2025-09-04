@@ -1,5 +1,5 @@
 import React from "react";
-import { SiTailwindcss } from "react-icons/si";
+// import { SiTailwindcss } from "react-icons/si";
 
 // import { image } from "motion/react-client";
 
@@ -14,7 +14,7 @@ export const myProjects = [
       {
         id: 1,
         name: "React",
-        path: "/src/assets/react.svg",
+        path: "/React--Streamline-Svg-Logos.svg",
       },
       {
         id: 2,
@@ -24,25 +24,7 @@ export const myProjects = [
       {
         id: 3,
         name: "Tailwind CSS",
-        path: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="32"
-            height="32"
-            viewBox="0 0 48 48"
-            fill="none"
-            className="text-sky-400"
-          >
-            <path
-              fill="#38BDF8"
-              d="M24 10c-6.627 0-10.793 3.667-12.5 11 2.5-3.667 5.333-5.5 8.5-5.5 2.118 0 3.627 1.072 4.527 3.217C25.912 20.862 26.99 21.5 28 21.5c2.706 0 5.206-1.206 7.5-3.217C34.5 14.167 30.333 10 24 10z"
-            />
-            <path
-              fill="#38BDF8"
-              d="M11.5 24.5c-6.627 0-10.793 3.667-12.5 11 2.5-3.667 5.333-5.5 8.5-5.5 2.118 0 3.627 1.072 4.527 3.217C12.912 34.362 13.99 35 15 35c2.706 0 5.206-1.206 7.5-3.217C21.5 28.667 17.333 24.5 11.5 24.5z"
-            />
-          </svg>
-        ),
+        path: "/Tailwindcss-Icon--Streamline-Svg-Logos.svg"
       },
     ],
   },
@@ -56,7 +38,7 @@ export const myProjects = [
       {
         id: 1,
         name: "React",
-        path: "/public/React--Streamline-Svg-Logos.svg",
+        path: "/React--Streamline-Svg-Logos.svg",
       },
       {
         id: 2,
@@ -66,7 +48,7 @@ export const myProjects = [
       {
         id: 3,
         name: "Tailwind CSS",
-        path: "/public/Tailwindcss-Icon--Streamline-Svg-Logos.svg"
+        path: "/Tailwindcss-Icon--Streamline-Svg-Logos.svg"
       },
       {
         id: 4,
