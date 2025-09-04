@@ -46,6 +46,35 @@ export const myProjects = [
       },
     ],
   },
+  {
+    id: 2,
+    title: "Borderlands Pandora",
+    description: "Enter Pandora—a multiuniversal gateway where dimensions converge and realities unravel.Every choice reshapes galaxies, awakens ancient powers, and forges destinies untold.Step beyond the ordinary and claim your place in the boundless epic.",
+    Image: "/public/Pandora.png",
+
+    tags: [
+      {
+        id: 1,
+        name: "React",
+        path: "/public/React--Streamline-Svg-Logos.svg",
+      },
+      {
+        id: 2,
+        name: "Vite",
+        path: "/vite.svg",
+      },
+      {
+        id: 3,
+        name: "Tailwind CSS",
+        path: "/public/Tailwindcss-Icon--Streamline-Svg-Logos.svg"
+      },
+      {
+        id: 4,
+        name: "Mantine UI",
+        path: "/Mantine--Streamline-Svg-Logos.svg",
+      },
+    ],
+  },
 ];
 
 

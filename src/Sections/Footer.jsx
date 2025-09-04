@@ -12,7 +12,7 @@ const Footer = () => {
             <Text>Terms & Conditions</Text>
             <Text>|</Text>
             <Text>Privacy Policy</Text>
-           <Text>Copyright &copy; 2025 <a href="" className= "text-blue-400 hover:text-yellow-500">Michael Emediong</a> </Text> 
+          <Text>Copyright &copy; 2025 <a href="" className= "text-blue-400 hover:text-yellow-500">Michael Emediong</a> </Text> 
         </Box>
        <Box className="flex space-x-6 justify-center items-center py-4 ml-4">
       {mySocials.map((social) => (
